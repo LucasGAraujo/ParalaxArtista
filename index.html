@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		
+		/* Configuração padrão da página
+		-------------------------------*/
+		body, html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #ffffff;
+			background-color: #450238;
+			text-align: justify;
+			padding: 50px 80px;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			color: #ffffff;
+			text-align: center;
+		}
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		/* Efeito Parallax
+		-------------------------------*/
+		.caixa1, .caixa2, .caixa3, .caixa4, .caixa5{
+			position: relative;
+			height: 100%;
+			opacity: 0.7;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed; 
+		}
+
+		.caixa1 {
+			background-image: url(imagens/imagem1.jpg);
+		}
+
+		.caixa2 {
+			background-image: url(imagens/imagem2.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/imagem3.jpeg);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/imagem4.jpeg);
+		}
+		.caixa5 {
+			background-image: url(imagens/imagem5.jpeg);
+		}
+
+		.conteudo-titulo {
+			position: absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #ffffff;
+			background-color: #450238;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+		}
+		.iori-header {
+
+font-family: "Shadows Into Light", cursive;
+font-weight: 400;
+font-style: normal;
+width: 100%;
+height: 7vh;
+background-color:#450238;
+color: #ffffff;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5); 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Estilos para o logo no cabeçalho */
+.logo-header {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 20%;
+}
+	</style>
+</head>
+<body>
+	<header class="iori-header" >
+        <div class="logo-header">
+            <h2>IORI GRAFFITI</h2>
+            
+        </div>
+    </header>
+	<div class="caixa3">
+		<div class="conteudo-titulo">
+			<span class="titulo">IORI</span>
+		</div>
+	</div>
+	<div class="conteudo">
+		<h3>IORI GAMEX</h3>
+		<p>Iori é um grafiteiro talentoso originário de Niterói, cujo trabalho reflete uma fusão única entre a cultura urbana e a arte contemporânea. Com sua base em Niterói, uma cidade conhecida por sua cena vibrante de arte urbana, Iori emergiu como uma figura proeminente na comunidade local de grafite. Seu estilo é marcado por linhas fluidas, cores vibrantes e temas que muitas vezes exploram a natureza, a espiritualidade e a conexão humana.</p>
+		<p>A inspiração por trás do meu nome ser originada de um jogo é uma fascinante demonstração de como os videogames podem transcender o entretenimento e influenciar aspectos significativos de nossas vidas. Sua conexão com o jogo não apenas lhe concede um significado único, mas também destaca o poder dos mundos virtuais em moldar nossa identidade e experiência. </p>
+	</div>
+
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+			<span class="titulo">MURO GAMEX</span>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<h3>MURO GAMEX</h3>
+		<p>Gamex é uma crew de grafiteiros composta por artistas de todo o Brasil. Uma "crew" é uma espécie de equipe ou grupo de artistas que compartilham uma mesma paixão pela arte urbana, e trabalham juntos em projetos de grafite. Gamex, nesse sentido, é uma comunidade de artistas urbanos que se unem para criar murais, participar de eventos, e compartilhar experiências e técnicas de grafite.</p>
+		<p>Dentro da Gamex, os artistas colaboram em projetos, trocam ideias e inspirações, e apoiam uns aos outros em suas jornadas artísticas. Eles também podem participar de eventos de grafite, como exposições, festivais de arte de rua, ou até mesmo projetos de intervenção urbana. Em resumo, Gamex é mais do que apenas um grupo de artistas; é uma comunidade vibrante que promove a arte do grafite e fortalece os laços entre os grafiteiros em todo o Brasil.</p></div>
+
+		<div class="caixa1">
+			<div class="conteudo-titulo">
+				<span class="titulo">PELICANO NA AREA</span>
+			</div>
+		</div>
+	
+		<div class="conteudo">
+			<h3>PELICANO NA AREA</h3>
+			<p>Nas ruas movimentadas de Niterói, ergue-se um testemunho vívido da expressão artística urbana: o grafite do pelicano. Com suas asas abertas em um voo imaginário, ele se torna um símbolo de esperança e liberdade em meio à paisagem urbana. As cores vibrantes e os detalhes meticulosos capturam a atenção dos transeuntes, convidando-os a uma pausa fugaz para contemplar sua beleza.</p>
+			<p>Este grafite não é apenas uma representação visual, mas uma declaração de positividade e vitalidade em uma cidade em constante movimento. Ele incorpora o espírito vibrante de Niterói, transmitindo uma mensagem de otimismo e inspiração para todos que o encontram. Em um mundo muitas vezes cinzento, o pelicano de Niterói é um lembrete de que a arte pode transformar até os espaços mais comuns em algo extraordinário, enchendo-os de cor e energia positiva.</p>
+		</div>
+	
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+			<span class="titulo">AMIGOS GRAFFITI</span>
+		</div>
+	</div>
+	<div class="conteudo">
+		<h3>AMIGOS GRAFFITI</h3>
+		<p>Desde que entrei no mundo do grafite, fui agraciado com uma riqueza inestimável: a amizade. O grafite não é apenas sobre marcar paredes ou expressar criatividade; é sobre conexões humanas profundas que se formam em torno de uma paixão compartilhada. Ao longo dos anos, encontrei camaradas, colegas e amigos que compartilham minha sede de arte e aventura urbana.</p>
+		<p>Cada lata de spray, cada mural compartilhado, cada sessão de pintura foi uma oportunidade para construir laços que transcendem as fronteiras do mundo material. Conheci grafiteiros de todos os cantos do mundo, cada um com sua própria história, sua própria voz expressiva, e juntos formamos uma comunidade diversificada e unida. Essas amizades são como cores na paleta de um pintor, cada uma adicionando uma dimensão única à minha jornada no mundo do grafite.</p></div>
+	<div class="caixa5">
+		<div class="conteudo-titulo">
+			<span class="titulo">PROJETO SOCIAL</span>
+		</div>
+	</div>
+	<div class="conteudo">
+		<h3>PROJETO SOCIAL</h3>
+		<p>Organizar oficinas de grafite e participar de projetos sociais é uma parte essencial do meu compromisso com a comunidade. Através das oficinas, compartilho técnicas de grafite e incentivo a expressão criativa em pessoas de todas as idades e origens, oferecendo um espaço de aprendizado e colaboração.</p>
+		<p>Além disso, os projetos sociais me permitem usar o grafite como uma ferramenta para promover mudanças positivas, seja revitalizando espaços urbanos ou conscientizando sobre questões sociais, criando assim um impacto tangível e significativo na comunidade local.</p></div>
+
+	</body>
+</html>
